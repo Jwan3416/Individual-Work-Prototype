@@ -1,6 +1,8 @@
 # Individual-Work-Prototype:point_right:（Employ timers and events for animation）
 <details>
+  
 <summary>Prototype introduction:writing_hand:</summary>
+
 On the basis of group project, I referred to some videos related to ‘wheel’ animation to enrich the animation effects of my work.
 
 ![Exploding Circle Rotatingby Luxone](https://github.com/Jwan3416/test-readme/blob/main/WechatIMG1589.jpg)
@@ -11,7 +13,38 @@ When considering timers and events to create an animation, my first consideratio
 <details>
 <summary>First Prototype :point_right:9103 First iteration</summary>
 In my First Prototype, I added two periodic timed operations.
+  
 1. Create the `setInterval` function to call the `changecolor` function, and set it every 2 seconds to present the effect of constantly changing the background color. 
 2. Use the `setTimeout` function to call the `genRandomColors` function again after 5 seconds, in order to periodically generate new random colors and apply them to concentric circles within the next 5 seconds.
+
+
 Thereby achieving periodic changes in the background color of the "wheels". This means that the use of timer in my First Prototype makes my canvas background color and wheels color dynamic, creating a visual effect when the color of the work changes.
-In addition, the use of the 'mousepressed' function responds to mouse click events. And when the mouse clicks, perform the following actions (reset): first, cancel the previously set timer and stop the timed color generation. At the same time, the `genRandomColors` function was immediately called to generate a new random color and applied to the 'Wheels' background color, achieving instant color change.
+
+In addition, the use of the `mousepressed` function responds to mouse click events. And when the mouse clicks, perform the following actions (reset): first, cancel the previously set timer and stop the timed color generation. At the same time, the `genRandomColors` function was immediately called to generate a new random color and applied to the 'Wheels' background color, achieving instant color change.
+
+</details>
+
+<details>
+  
+<summary>Second Prototype:point_right:9103 First iteration</summary>
+
+Considering that my work lacks strong interactivity, compared to First Prototype, my Second Prototype adds keyboard events to enhance the interactivity of the work:
+
+1. The left and right direction keys control the direction and speed of rotation.
+
+2. The up arrow key stops
+
+3. The down arrow key can slow down the rotation speed.
+
+This function is implemented by the `keypress` function. Whenever a key is pressed, `rotateSpeedPressed` will update the speed variable, which will be multiplied into the rotate to control the rotation direction and speed of the "wheels" and the small ellipse line.
+
+</details>
+
+<details>
+  
+<summary>Final Prototype:point_right:9103 First iteration</summary>
+
+Considering that the prototype needs to seamlessly adapt to the adjustment of browser window size, compared to Second Prototype, I have changed the canvas size from `createCanvas (800, 800)`to `createCanvas (windowWidth, windowHeight)`. And add a `function windowResized `resize canvas in the browser window size to adapt to various window sizes. Improve the text function on the canvas and explain to users how arrow keys control animation.
+
+</details>
+

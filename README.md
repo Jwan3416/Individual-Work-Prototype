@@ -10,3 +10,8 @@ When considering timers and events to create an animation, my first consideratio
 
 <details>
 <summary>First Prototype :point_right:9103 First iteration</summary>
+In my First Prototype, I added two periodic timed operations.
+1. Create the `setInterval` function to call the `changecolor` function, and set it every 2 seconds to present the effect of constantly changing the background color. 
+2. Use the `setTimeout` function to call the `genRandomColors` function again after 5 seconds, in order to periodically generate new random colors and apply them to concentric circles within the next 5 seconds.
+Thereby achieving periodic changes in the background color of the "wheels". This means that the use of timer in my First Prototype makes my canvas background color and wheels color dynamic, creating a visual effect when the color of the work changes.
+In addition, the use of the 'mousepressed' function responds to mouse click events. And when the mouse clicks, perform the following actions (reset): first, cancel the previously set timer and stop the timed color generation. At the same time, the `genRandomColors` function was immediately called to generate a new random color and applied to the 'Wheels' background color, achieving instant color change.

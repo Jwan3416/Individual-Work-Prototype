@@ -11,7 +11,7 @@ When considering timers and events to create an animation, my first consideratio
 </details>
 
 <details>
-<summary>First Prototype :point_right:9103 First iteration</summary>
+<summary>First Prototype :point_right:https://github.com/Jwan3416/Individual-Work-Prototype/commit/05f2dab8a3330d1ee15b5e133e7957f9739cd1e9</summary>
 In my First Prototype, I added two periodic timed operations.
   
 1. Create the `setInterval` function to call the `changecolor` function, and set it every 2 seconds to present the effect of constantly changing the background color. 
@@ -26,7 +26,7 @@ In addition, the use of the `mousepressed` function responds to mouse click even
 
 <details>
   
-<summary>Second Prototype:point_right:9103 First iteration</summary>
+<summary>Second Prototype:point_right:https://github.com/Jwan3416/Individual-Work-Prototype/commit/e40566d4822876eb623d9b978a60c37730200a92</summary>
 
 Considering that my work lacks strong interactivity, compared to First Prototype, my Second Prototype adds keyboard events to enhance the interactivity of the work:
 
@@ -42,7 +42,7 @@ This function is implemented by the `keypress` function. Whenever a key is press
 
 <details>
   
-<summary>Final Prototype:point_right:9103 First iteration</summary>
+<summary>Final Prototype:point_right:https://github.com/Jwan3416/Individual-Work-Prototype/commit/dfa6791c6eef3e1092a44cad41ebe87cebb33b0d</summary>
 
 Considering that the prototype needs to seamlessly adapt to the adjustment of browser window size, compared to Second Prototype, I have changed the canvas size from `createCanvas (800, 800)`to `createCanvas (windowWidth, windowHeight)`. And add a `function windowResized `resize canvas in the browser window size to adapt to various window sizes. Improve the text function on the canvas and explain to users how arrow keys control animation.
 

@@ -1,4 +1,4 @@
-# Jwan3416-Individual-Work-Prototype:point_right:（Employ timers and events for animation）
+# Jwan3416-9103-tut06-Individual-Work-Prototype:point_right:（Employ timers and events for animation）
 <details>
   
 <summary>Prototype introduction:writing_hand:</summary>

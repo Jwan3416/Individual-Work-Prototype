@@ -50,7 +50,7 @@ Considering that the prototype needs to seamlessly adapt to the adjustment of br
 
 <details>
 
-<summary>reference</summary>
+<summary>Reference</summary>
 
 The Coding Train. (2015). 9.5: JavaScript setInterval() Function - P5.js Tutorial [Video]. In YouTube. https://www.youtube.com/watch?v=CqDqHiamRHA
 
@@ -62,4 +62,9 @@ p5.js Web Editor. (n.d.-c). Retrieved November 6, 2023, from https://editor.p5js
 
 p5.js Web Editor. (n.d.-d). Retrieved November 6, 2023, from https://editor.p5js.org/enickles/sketches/oV2VImKje
 
+p5.js Web Editor. (n.d.-e). Retrieved November 6, 2023, from https://editor.p5js.org/ehagan/sketches/dlcBuy7NC
+
+p5.js windowResized   function. (2019, April 18). GeeksforGeeks. https://www.geeksforgeeks.org/p5-js-windowresized-function/
+
+reference. (n.d.-b). P5.Js. Retrieved November 6, 2023, from https://p5js.org/zh-Hans/reference/#/p5.Element/mousePressed
 

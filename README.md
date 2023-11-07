@@ -54,7 +54,7 @@ Considering that the prototype needs to seamlessly adapt to the adjustment of br
 
 The Coding Train. (2015). 9.5: JavaScript setInterval() Function - P5.js Tutorial [Video]. In YouTube. https://www.youtube.com/watch?v=CqDqHiamRHA
 
-The Coding Train. (2015a). 9.4: JavaScript setTimeout() Function - P5.js Tutorial [Video]. In YouTube. https://www.youtube.com/watch?v=nGfTjA8qNDA
+The Coding Train. (2015). 9.4: JavaScript setTimeout() Function - P5.js Tutorial [Video]. In YouTube. https://www.youtube.com/watch?v=nGfTjA8qNDA
 
 p5.js Web Editor. (n.d.-b). Retrieved November 6, 2023, from https://editor.p5js.org/luckyshulman/sketches/BWOKzWSgc
 
